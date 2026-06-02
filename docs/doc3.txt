@@ -1,0 +1,18 @@
+Marco Regulatorio y Políticas Públicas
+El desarrollo y la adopción de las energías renovables están fuertemente influenciados por el marco regulatorio y las políticas energéticas de cada país, así como por los compromisos ambientales internacionales.
+
+Acuerdos Internacionales
+El principal instrumento global que impulsa la transición energética es el Acuerdo de París (2015), en el cual la mayoría de las naciones se comprometieron a reducir sus emisiones de gases de efecto invernadero para limitar el calentamiento global. Estos compromisos internacionales se traducen directamente en metas nacionales para incrementar la capacidad instalada de energías limpias.
+
+Instrumentos de Fomento Nacional
+A nivel local, los gobiernos implementan diversas herramientas legales y regulatorias para incentivar la inversión y hacer competitivas estas tecnologías frente a los combustibles fósiles:
+
+Estándares de cartera de renovables (Sistemas de cuotas): Normativas que obligan a los grandes consumidores o a las empresas distribuidoras a garantizar que un porcentaje específico de la energía comercializada o consumida provenga de fuentes renovables.
+
+Licitaciones y subastas públicas: El Estado o entidades reguladoras licitan bloques de capacidad de generación renovable. Se adjudican contratos de abastecimiento a largo plazo (conocidos como PPA, por sus siglas en inglés) a los proyectos que ofrecen el menor precio por megavatio-hora (MWh).
+
+Tarifas de inyección (Feed-in Tariffs): Esquemas que garantizan un precio fijo y preferencial a largo plazo para los productores de energía renovable por cada unidad de electricidad inyectada a la red pública.
+
+Incentivos fiscales y financieros: Exenciones o reducciones de impuestos, amortización acelerada de bienes de capital y acceso a créditos con tasas subsidiadas para el desarrollo de proyectos de energías limpias.
+
+Mecanismos de fijación de precios al carbono: Implementación de impuestos al carbono o sistemas de comercio de derechos de emisión (Cap and Trade) que penalizan económicamente la generación fósil, mejorando así la competitividad de las energías renovables en el mercado eléctrico.

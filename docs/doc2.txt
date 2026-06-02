@@ -1,0 +1,20 @@
+Existen diversas tecnologías desarrolladas para aprovechar los distintos recursos naturales. A continuación, se detallan las de mayor adopción a nivel global:
+
+Energía Solar
+Obtenida a partir del aprovechamiento de la radiación electromagnética procedente del Sol. Se divide principalmente en dos tecnologías:
+
+Solar fotovoltaica: Convierte la luz solar directamente en electricidad mediante el efecto fotoeléctrico en paneles solares construidos con materiales semiconductores.
+
+Solar térmica: Utiliza el calor del sol para calentar fluidos y, mediante un ciclo termodinámico convencional, generar electricidad o proveer calor para uso directo industrial o residencial.
+
+Energía Eólica
+La energía eólica es la obtenida a partir del viento, aprovechando la energía cinética generada por las corrientes de aire. Se transforma en electricidad a través de aerogeneradores, que pueden estar instalados en tierra (onshore) o en el mar (offshore).
+
+Energía Hidroeléctrica
+Aprovecha la energía potencial y cinética de las corrientes de agua o saltos de agua. Generalmente se implementa mediante la construcción de represas que canalizan el flujo hacia turbinas hidráulicas, las cuales están acopladas a generadores eléctricos.
+
+Energía Geotérmica
+Esta fuente aprovecha el calor interno de la Tierra, que se transmite a través de los cuerpos de roca caliente o reservorios de vapor y agua en el subsuelo. Se utiliza tanto para calefacción directa como para la generación de energía eléctrica en plantas específicas.
+
+Biomasa y Biogás
+Se genera a partir de la combustión, fermentación o pirólisis de materia orgánica (restos agrícolas, forestales o desechos urbanos). Su balance de emisiones de carbono se considera neutral, ya que el CO2 emitido durante su aprovechamiento fue previamente absorbido por las plantas durante su ciclo de crecimiento.
