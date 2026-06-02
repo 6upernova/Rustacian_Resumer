@@ -4,6 +4,18 @@ use std::path::{Path, PathBuf};
 
 use crate::ports::FileSystem;
 
+pub fn list_dirs(dir: &Path) -> Result<Vec<PathBuf>, io::Error> {
+    let mut paths = Vec::new();
+    for entry in fs::read_dir(dir)? {
+        let entry = entry?;
+        let file_type = entry.file_type()?;
+        if file_type.is_dir() {
+            paths.push(entry.path());
+        }
+    }
+    Ok(paths)
+}
+
 pub fn list_txt_files(dir: &Path) -> Result<Vec<PathBuf>, io::Error> {
     let mut paths = Vec::new();
     for entry in fs::read_dir(dir)? {
@@ -31,6 +43,10 @@ pub fn read_file(path: &Path) -> Result<String, io::Error> {
 pub struct StdFileSystem;
 
 impl FileSystem for StdFileSystem {
+    fn list_dirs(&self, dir: &Path) -> Result<Vec<PathBuf>, io::Error> {
+        list_dirs(dir)
+    }
+
     fn list_txt_files(&self, dir: &Path) -> Result<Vec<PathBuf>, io::Error> {
         list_txt_files(dir)
     }

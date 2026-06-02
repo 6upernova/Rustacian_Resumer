@@ -8,6 +8,7 @@ use crate::{ProcessedSentence, ScoredSentence};
 ///
 /// Permite testear/invertir dependencias sin acoplar la lógica a `std::fs`.
 pub trait FileSystem: Send + Sync {
+    fn list_dirs(&self, dir: &Path) -> Result<Vec<PathBuf>, io::Error>;
     fn list_txt_files(&self, dir: &Path) -> Result<Vec<PathBuf>, io::Error>;
     fn read_file(&self, path: &Path) -> Result<String, io::Error>;
 }
