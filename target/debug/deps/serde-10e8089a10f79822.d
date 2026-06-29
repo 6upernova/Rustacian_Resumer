@@ -1,0 +1,14 @@
+/mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/deps/serde-10e8089a10f79822.d: /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/build/serde-830168119362d6eb/out/private.rs
+
+/mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/deps/libserde-10e8089a10f79822.rlib: /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/build/serde-830168119362d6eb/out/private.rs
+
+/mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/deps/libserde-10e8089a10f79822.rmeta: /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/build/serde-830168119362d6eb/out/private.rs
+
+/home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/noah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/build/serde-830168119362d6eb/out/private.rs:
+
+# env-dep:OUT_DIR=/mnt/n/Uni/Lenguajes_de_programacion/Etapa-2/Resumidor-Rust/target/debug/build/serde-830168119362d6eb/out
