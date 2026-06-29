@@ -1,1 +1,0 @@
-impl Future<Output = Result<HashMap<String, DocumentEntities>, Box<(dyn std::error::Error + Send + Sync + 'static)>>>
