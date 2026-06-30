@@ -8,7 +8,10 @@ pub struct WikipediaApiClient {
 impl WikipediaApiClient {
     pub fn new() -> Self {
         Self {
-            client: reqwest::Client::new(),
+            client: reqwest::Client::builder()
+                .user_agent("ProyectoLenguajes/1.0 (Comision Nro 4)")
+                .build()
+                .expect("No se pudo crear el cliente HTTP"),
             base_url: "https://es.wikipedia.org/api/rest_v1/page/summary".to_string(),
         }
     }
