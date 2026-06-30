@@ -2,7 +2,7 @@ use std::fs;
 use std::io;
 use std::path::{Path, PathBuf};
 
-use crate::IO::ports::FileSystem;
+use crate::io::ports::FileSystem;
 
 pub fn list_txt_files(dir: &Path) -> Result<Vec<PathBuf>, io::Error> {
     let mut paths = Vec::new();

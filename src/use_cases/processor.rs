@@ -1,7 +1,7 @@
 use std::cmp::Ordering;
 use std::collections::{HashMap, HashSet};
 
-use crate::IO::ports::SentenceRanker;
+use crate::io::ports::SentenceRanker;
 use crate::{ProcessedSentence, ScoredSentence};
 
 #[derive(Debug, Clone, Copy, Default)]

@@ -5,7 +5,7 @@ use std::path::{Path, PathBuf};
 use std::sync::mpsc;
 use std::thread;
 
-use crate::IO::ports::{FileSystem, SentenceRanker, SentenceTokenizer};
+use crate::io::ports::{FileSystem, SentenceRanker, SentenceTokenizer};
 use crate::{ProcessedSentence, ScoredSentence};
 
 #[derive(Debug)]

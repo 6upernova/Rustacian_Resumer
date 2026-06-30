@@ -1,5 +1,5 @@
-use crate::IO::external::WikipediaApiClient;
-use crate::UseCases::entities::NerResult;
+use crate::io::external::WikipediaApiClient;
+use crate::use_cases::entities::NerResult;
 use std::collections::HashMap;
 use urlencoding::encode;
 

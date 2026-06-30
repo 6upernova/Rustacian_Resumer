@@ -1,13 +1,13 @@
 use std::env;
 use std::path::PathBuf;
 
-use resumidor_rust::IO::input::{self, StdFileSystem};
-use resumidor_rust::IO::output;
-use resumidor_rust::UseCases::additionalInfo;
-use resumidor_rust::UseCases::entities;
-use resumidor_rust::UseCases::processor::TfidfRanker;
-use resumidor_rust::UseCases::summarizer::Summarizer;
-use resumidor_rust::UseCases::tokenizer::DefaultTokenizer;
+use resumidor_rust::io::input::{self, StdFileSystem};
+use resumidor_rust::io::output;
+use resumidor_rust::use_cases::additional_info;
+use resumidor_rust::use_cases::entities;
+use resumidor_rust::use_cases::processor::TfidfRanker;
+use resumidor_rust::use_cases::summarizer::Summarizer;
+use resumidor_rust::use_cases::tokenizer::DefaultTokenizer;
 
 #[tokio::main]
 async fn main() {
@@ -39,7 +39,7 @@ async fn main() {
     };
 
     // Extraer información adicional de Wikipedia para las entidades encontradas
-    let entity_info = additionalInfo::fetch_entity_info(&entities_report).await;
+    let entity_info = additional_info::fetch_entity_info(&entities_report).await;
 
     let report = match summarizer.summarize_dir(&topic_dir, 10) {
         Ok(report) => report,

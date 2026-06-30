@@ -7,7 +7,7 @@ use std::path::Path;
 
 use serde_json::Value;
 
-use crate::IO::input::{list_txt_files, read_file};
+use crate::io::input::{list_txt_files, read_file};
 use crate::types::DocumentEntities;
 
 pub type NerResult = HashMap<String, DocumentEntities>;

@@ -1,4 +1,4 @@
-use crate::IO::ports::SentenceTokenizer;
+use crate::io::ports::SentenceTokenizer;
 
 const STOPWORDS: &[&str] = &[
     "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for", "of", "with", "by",
