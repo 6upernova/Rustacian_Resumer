@@ -1,6 +1,7 @@
 use crate::IO::external::WikipediaApiClient;
 use crate::UseCases::entities::NerResult;
 use std::collections::HashMap;
+use urlencoding::encode;
 
 /// Estructura que mapea cada entidad a su descripción de Wikipedia.
 pub type EntityInfo = HashMap<String, String>;
@@ -22,8 +23,8 @@ pub async fn fetch_entity_info(ner_result: &NerResult) -> EntityInfo {
             if entity_info.contains_key(&entity.text) {
                 continue;
             }
-
-            let description = match client.get(&entity.text).await {
+            let encoded_url = encode(&entity.text);
+            let description = match client.get(&encoded_url).await {
                 Ok(Some(summary)) => summary.extract,
                 Ok(None) | Err(_) => DEFAULT_INFO.to_string(),
             };
