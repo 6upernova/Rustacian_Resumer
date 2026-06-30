@@ -8,6 +8,7 @@ pub type EntityInfo = HashMap<String, String>;
 
 /// Texto por defecto cuando Wikipedia no devuelve información.
 const DEFAULT_INFO: &str = "No se encontro informacion";
+const DISAMBIGUATION_INFO: &str = "La entidad tiene un nombre muy generico que hace referencia a diversos articulos en Wikipedia";
 
 /// Obtiene información adicional de Wikipedia para todas las entidades detectadas.
 ///
@@ -25,7 +26,9 @@ pub async fn fetch_entity_info(ner_result: &NerResult) -> EntityInfo {
             }
             let encoded_url = encode(&entity.text);
             let description = match client.get(&encoded_url).await {
-                Ok(Some(summary)) => summary.extract,
+                Ok(Some(summary)) => 
+                    if summary.page_type == "disambiguation" { DISAMBIGUATION_INFO.to_string() }
+                    else { summary.extract },
                 Ok(None) | Err(_) => DEFAULT_INFO.to_string(),
             };
 
